@@ -10,7 +10,7 @@ app.use(cors());
 app.use(express.json());
 app.use(express.static("public"));
 
-mongoose.connect("mongodb+srv://sakshamv108:SakSham325@budgetwiser.e0hmhr6.mongodb.net/?appName=BudgetWiser")
+mongoose.connect("mongodb+srv://sakshamv108:SakSham35@budgetwiser.e0hmhr6.mongodb.net/?appName=BudgetWiser")
 .then(() => {
     console.log("MongoDB Connected");
 })
